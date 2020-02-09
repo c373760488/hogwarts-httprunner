@@ -13,8 +13,8 @@ install:
   - pip install poetry
   - poetry install -vvv
 script:
-  - poetry coverage run -m unittest discover
-  - poetry coverage report
+  - poetry run coverage run -m unittest discover
+  - poetry run coverage report
 
 after_success:
   - poetry run coveralls
