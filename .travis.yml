@@ -13,4 +13,4 @@ install:
   - pip install poetry
   - poetry install -vvv
 script:
-  - python -m unittest discovery
+  - python -m unittest discover
