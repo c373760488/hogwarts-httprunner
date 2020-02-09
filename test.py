@@ -6,3 +6,5 @@ class TestEG(unittest.TestCase):
     def test_02(self):
         assert 2==2
 
+    def test_03(self):
+        assert 3==3
