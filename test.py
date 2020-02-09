@@ -1,7 +1,8 @@
-class TestEG:
+import unittest
+class TestEG(unittest.TestCase):
     def test_01(self):
         assert 1==1
 
-if __name__ == '__main__':
-    a=TestEG()
-    a.test_01()
+    def test_02(self):
+        assert 2==2
+
